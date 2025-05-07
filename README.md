@@ -6,14 +6,14 @@ Este repositório contém um projeto de site pessoal desenvolvido com HTML e CSS
 
 ## 📸 Captura de Tela
 
-![Captura do Site](ste_portifolio.png)
+![Captura do Site](./ste_portifolio.png)
 
 ---
 
 ## 🔗 Acesse o Site
 
 📍 Veja o site online em:  
-👉 **[https://seu-usuario.github.io/nome-do-repositorio/](https://yagorodrigues-bit.github.io/Portif-lio-Yago-Kbraw/)**  
+👉 **https://seu-usuario.github.io/nome-do-repositorio/**  
 > Substitua pelo link real após publicar no GitHub Pages
 
 ---
@@ -75,14 +75,13 @@ Yago Cabral
 Este projeto está licenciado sob os termos da licença MIT.
 Sinta-se livre para usar, modificar e distribuir com atribuição.
 
-yaml
+perl
 Copiar
 Editar
 
----
+Depois de colar, **lembre-se de trocar os campos `seu-usuario` e `nome-do-repositorio`** pelo seu nome de usuário e o nome exato do repositório.
 
-Se quiser, posso gerar esse `README.md` já com **seu nome de usuário do GitHub** e o **link verdadeiro do GitHub Pages**. Quer que eu faça isso agora?
-
+Se quiser que eu substitua esses valores automaticamente, é só me dizer como está o link real do seu GitHub Pages. Deseja isso?
 
 
 

@@ -18,7 +18,6 @@ Este repositório contém um projeto de site pessoal desenvolvido com HTML e CSS
 
 ---
 
----
 🧪 Tecnologias Utilizadas
 HTML5 – marcação da estrutura do site
 
@@ -28,6 +27,8 @@ Git e GitHub – versionamento e hospedagem
 
 GitHub Pages – publicação da aplicação
 
+---
+
 🛠️ Como Executar Localmente
 1. Clone o repositório:
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
@@ -36,6 +37,8 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
 
 3. Clique duas vezes em index.html ou abra com seu navegador.
+
+---
 
 🚀 Como Publicar com GitHub Pages
 1. Suba todos os arquivos para a branch main do repositório.
@@ -48,11 +51,15 @@ cd nome-do-repositorio
 
 5. Acesse a URL gerada pelo GitHub Pages.
 
-👤 Sobre o Autor
-Yago Cabral
-📍 Estudante de Engenharia de Software
-📧 Contato disponível no site
+---
 
+👤 Sobre o Autor:
+Yago Cabral
+
+📍 Estudante de Engenharia de Software
+
+📧 Contato disponível no site
+---
 📄 Licença
 Este projeto está licenciado sob os termos da licença MIT.
 Sinta-se livre para usar, modificar e distribuir com atribuição.

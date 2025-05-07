@@ -59,7 +59,9 @@ Yago Cabral
 📍 Estudante de Engenharia de Software
 
 📧 Contato disponível no site
+
 ---
+
 📄 Licença
 Este projeto está licenciado sob os termos da licença MIT.
 Sinta-se livre para usar, modificar e distribuir com atribuição.

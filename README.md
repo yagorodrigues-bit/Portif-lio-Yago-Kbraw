@@ -6,14 +6,14 @@ Este repositório contém um projeto de site pessoal desenvolvido com HTML e CSS
 
 ## 📸 Captura de Tela
 
-![Captura do Site](./ste_portifolio.png)
+![Captura do Site](ste_portifolio.png)
 
 ---
 
 ## 🔗 Acesse o Site
 
 📍 Veja o site online em:  
-👉 **https://seu-usuario.github.io/nome-do-repositorio/**  
+👉 **[https://seu-usuario.github.io/nome-do-repositorio/](https://yagorodrigues-bit.github.io/Portif-lio-Yago-Kbraw/)**  
 > Substitua pelo link real após publicar no GitHub Pages
 
 ---
@@ -31,6 +31,7 @@ Este repositório contém um projeto de site pessoal desenvolvido com HTML e CSS
 ├── EPcontabilidade.png    # Elemento gráfico adicional (possivelmente usado no site)
 ├── Currículo-Lattes.pdf   # Currículo profissional em PDF
 └── README.md              # Documentação do projeto
+
 🧪 Tecnologias Utilizadas
 HTML5 – marcação da estrutura do site
 
@@ -41,30 +42,24 @@ Git e GitHub – versionamento e hospedagem
 GitHub Pages – publicação da aplicação
 
 🛠️ Como Executar Localmente
-Clone o repositório:
-
-bash
-Copiar
-Editar
+1. Clone o repositório:
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
-Abra a pasta do projeto:
 
-bash
-Copiar
-Editar
+2. Abra a pasta do projeto:
 cd nome-do-repositorio
-Clique duas vezes em index.html ou abra com seu navegador.
+
+3. Clique duas vezes em index.html ou abra com seu navegador.
 
 🚀 Como Publicar com GitHub Pages
-Suba todos os arquivos para a branch main do repositório.
+1. Suba todos os arquivos para a branch main do repositório.
 
-Vá em Settings > Pages.
+2. Vá em Settings > Pages.
 
-Em “Source”, selecione a branch main e pasta /root.
+3. Em “Source”, selecione a branch main e pasta /root.
 
-Clique em Save.
+4. Clique em Save.
 
-Acesse a URL gerada pelo GitHub Pages.
+5. Acesse a URL gerada pelo GitHub Pages.
 
 👤 Sobre o Autor
 Yago Cabral
@@ -74,18 +69,3 @@ Yago Cabral
 📄 Licença
 Este projeto está licenciado sob os termos da licença MIT.
 Sinta-se livre para usar, modificar e distribuir com atribuição.
-
-perl
-Copiar
-Editar
-
-Depois de colar, **lembre-se de trocar os campos `seu-usuario` e `nome-do-repositorio`** pelo seu nome de usuário e o nome exato do repositório.
-
-Se quiser que eu substitua esses valores automaticamente, é só me dizer como está o link real do seu GitHub Pages. Deseja isso?
-
-
-
-
-
-
-

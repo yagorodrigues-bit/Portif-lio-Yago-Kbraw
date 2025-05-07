@@ -76,7 +76,8 @@ Sinta-se livre para usar, modificar e distribuir com atribuição.
 ├── fundo.png              # Imagem de fundo usada no layout
 ├── logo.png               # Logotipo exibido na interface
 ├── yago.jpeg              # Foto do desenvolvedor
-├── ste_portifolio.png     # Imagem de preview do site (usada neste README)
-├── EPcontabilidade.png    # Elemento gráfico adicional (possivelmente usado no site)
+├── tela.png               # Imagem de preview do site (usada neste README)
+├── ste_portifolio.png     # Imagem de projeto desenvolvido
+├── EPcontabilidade.png    # Imagem de projeto desenvolvido
 ├── Currículo-Lattes.pdf   # Currículo profissional em PDF
 └── README.md              # Documentação do projeto

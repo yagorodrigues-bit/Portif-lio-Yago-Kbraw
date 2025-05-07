@@ -18,20 +18,7 @@ Este repositório contém um projeto de site pessoal desenvolvido com HTML e CSS
 
 ---
 
-## 📁 Estrutura de Arquivos
-
-```bash
-.
-├── index.html             # Página principal do site
-├── style.css              # Estilos personalizados
-├── fundo.png              # Imagem de fundo usada no layout
-├── logo.png               # Logotipo exibido na interface
-├── yago.jpeg              # Foto do desenvolvedor
-├── ste_portifolio.png     # Imagem de preview do site (usada neste README)
-├── EPcontabilidade.png    # Elemento gráfico adicional (possivelmente usado no site)
-├── Currículo-Lattes.pdf   # Currículo profissional em PDF
-└── README.md              # Documentação do projeto
-
+---
 🧪 Tecnologias Utilizadas
 HTML5 – marcação da estrutura do site
 
@@ -69,3 +56,17 @@ Yago Cabral
 📄 Licença
 Este projeto está licenciado sob os termos da licença MIT.
 Sinta-se livre para usar, modificar e distribuir com atribuição.
+
+## 📁 Estrutura de Arquivos
+
+```bash
+.
+├── index.html             # Página principal do site
+├── style.css              # Estilos personalizados
+├── fundo.png              # Imagem de fundo usada no layout
+├── logo.png               # Logotipo exibido na interface
+├── yago.jpeg              # Foto do desenvolvedor
+├── ste_portifolio.png     # Imagem de preview do site (usada neste README)
+├── EPcontabilidade.png    # Elemento gráfico adicional (possivelmente usado no site)
+├── Currículo-Lattes.pdf   # Currículo profissional em PDF
+└── README.md              # Documentação do projeto

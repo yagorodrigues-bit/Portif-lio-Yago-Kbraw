@@ -14,7 +14,7 @@ Este repositório contém um projeto de site pessoal desenvolvido com HTML e CSS
 
 📍 Veja o site online em:  
 👉 **[https://seu-usuario.github.io/nome-do-repositorio/](https://yagorodrigues-bit.github.io/Portif-lio-Yago-Kbraw/)**  
-> Substitua pelo link real após publicar no GitHub Pages
+
 
 ---
 

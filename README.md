@@ -6,9 +6,9 @@ Este repositório contém um projeto de site pessoal desenvolvido com HTML e CSS
 
 ## 📸 Captura de Tela
 
-![Captura do Site](ste_portifólio.png)
+![Captura do Site](ste_portifolio.png)
 
----
+
 
 ## 🔗 Acesse o Site
 

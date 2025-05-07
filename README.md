@@ -31,7 +31,7 @@ GitHub Pages – publicação da aplicação
 
 🛠️ Como Executar Localmente
 1. Clone o repositório:
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https:https://github.com/yagorodrigues-bit/Portif-lio-Yago-Kbraw/tree/main
 
 2. Abra a pasta do projeto:
 cd nome-do-repositorio

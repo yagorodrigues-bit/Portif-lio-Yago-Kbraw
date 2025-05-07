@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <title>Portfólio | Yago Kabraw</title>
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Ícones do Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- Navegação superior -->
+  <nav>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </nav>
+   
+
+  <!-- Cabeçalho com fundo animado VANTA e digitação dinâmica -->
+  <header id="vanta-bg">
+    <div class="header-content">
+      <div class="texto-header">
+        <p>Bem-vindo</p>
+        <h1>
+          <span id="name-text"></span><span class="cursor" id="cursor1">|</span>
+        </h1>
+        <p>
+          <span id="desc-text"></span><span class="cursor" id="cursor2">|</span>
+        </p>
+      </div>
+    </div>
+    <img src="logo.png" alt="Logo Yago Cabral" class="logo-header">
+  </header>
+
+  <!-- Seção 'Sobre Mim' -->
+  <section id="sobre" class="sobre-section">
+    <div class="sobre-conteudo">
+      <div class="foto" data-aos="fade-right">
+        <img src="yago.jpeg" alt="Logo Erebor">
+      </div>
+      <div class="texto" data-aos="fade-left">
+        <h2>Sobre Mim</h2>
+        <h3>Minha introdução</h3>
+        <p>
+          Olá! Meu nome é Yago Cabral, sou estudante de Engenharia de Software com grande interesse em desenvolvimento web, mobile e programação em geral.
+          Tenho buscado construir projetos que mostrem minha evolução, criatividade e vontade de aprender. Estou sempre aberto a desafios e oportunidades para crescer profissionalmente.
+        </p>
+        <div class="estatisticas">
+       <!--   <div class="estatistica">
+            <h4>06+</h4>
+            <span>Anos de experiência</span>
+          </div>-->
+          <div class="estatistica">
+            <h4>2</h4>
+            <span>Projetos completos</span>
+          </div> 
+          <div class="estatistica">
+            <h4>1</h4>
+            <span>Empresa trabalhada</span>
+          </div>
+        </div>
+        <a href="cv.pdf" class="btn-cv" download>Currículo <i class="fas fa-download"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Tecnologias -->
+  <section id="tecnologias" class="tecnologias-section">
+    <h2>Tecnologias que utilizo</h2>
+    <div class="tecnologias-grid">
+
+      <!-- Cada card representa uma tecnologia -->
+      <div class="tecnologia-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+        <span>HTML5</span>
+      </div>
+
+      <div class="tecnologia-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+        <span>CSS3</span>
+      </div>
+
+      <div class="tecnologia-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+        <span>JavaScript</span>
+      </div>
+
+      <div class="tecnologia-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+        <span>TypeScript</span>
+      </div>
+
+      <div class="tecnologia-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+        <span>React.js</span>
+      </div>
+
+      <div class="tecnologia-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js">
+        <span>Next.js</span>
+      </div>
+
+      <div class="tecnologia-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+        <span>MySQL</span>
+      </div>
+
+      <!-- Comentado para possível uso futuro -->
+      <!--<div class="tecnologia-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+        <span>Java</span>
+      </div>-->
+
+      <div class="tecnologia-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+        <span>Python</span>
+      </div>
+
+      <div class="tecnologia-card">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+        <span>Figma</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Seção de Projetos -->
+  <section id="projetos">
+    <h2>Projetos</h2><br>
+    <div class="projetos-grid">
+
+      <!-- Cada card representa um projeto -->
+      <div class="card-projeto">
+        <div class="imagem-container">
+          <img src="EPcontabilidade.png" alt="Projeto 1">
+          <div class="overlay">
+            <h3>EP Contabilidade</h3>
+          </div>
+        </div>
+        <div class="info-hover">
+          <h4>EP Contabilidade</h4>
+          <a href="https://www.epcontabilidadeonline.com/" target="_blank" class="btn-sobre">Ver mais</a>
+        </div>
+      </div>
+      
+      <div class="card-projeto">
+        <div class="imagem-container">
+          <img src="ste_portifolio.png" alt="Projeto 2">
+          <div class="overlay">
+            <h3>Site Portfólio</h3>
+          </div>
+        </div>
+        <div class="info-hover">
+          <h4>Site Portfólio</h4>
+          <a href="https://seusiteportifolio.com" target="_blank" class="btn-sobre">Ver mais</a>
+        </div>
+      </div>
+      
+
+      <div class="card-projeto">
+        <div class="imagem-container">
+          <img src="im.png" alt="Projeto 3">
+          <div class="overlay">
+            <h3>Projeto 3</h3>
+          </div>
+        </div>
+        <div class="info-hover">
+          <h4>Projeto 3</h4>
+          <button class="btn-sobre">Ver mais</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Seção de Contato -->
+   
+  <section id="contato" class="contato-section">
+    <h2>Contato</h2>
+    <p>Entre em contato comigo!</p>
+    <div class="contato-info">
+      <a href="https://w.app/yago-kabraw-dev" target="_blank" class="contato-item">
+        <i class="fab fa-whatsapp"></i>
+        <div>
+          <h3>WhatsApp</h3>
+          <p>+55 (71) 99999-9999</p>
+        </div>
+      </a>
+      <a href="mailto:yagorodriguescabral@email.com" target="_blank" class="contato-item">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h3>Email</h3>
+          <p>yago.cabral@email.com</p>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/yago-cabral" target="_blank" class="contato-item">
+        <i class="fab fa-linkedin"></i>
+        <div>
+          <h3>LinkedIn</h3>
+          <p>linkedin.com/in/yago-cabral</p>
+        </div>
+      </a>
+    </div>
+  </section>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; Yago Kabraw 2025 - Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="#Sobre">Sobre</a>
+        <a href="#Projetos">Pprojetos</a>
+        <a href="#contato">Contato</a>
+        <!--<a href="#">Abayomi</a> -->
+      </div>
+      <div class="footer-icons">
+        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <!--<a href="#"><i class="fas fa-rocket"></i></a>-->
+      </div>
+    </div>
+  </footer>
+
+  <!-- VANTA.BIRDS + THREE.JS (comentado para possível uso futuro) 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+  <script>
+    VANTA.BIRDS({
+      el: "#vanta-bg",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      backgroundColor: 0x000000,
+      color1: 0x00ff9f,
+      color2: 0x8c00ac
+    });
+  </script> -->
+
+  <!-- Bibliotecas VANTA -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+<script>
+    AOS.init();
+  // Inicializa VANTA apenas em telas grandes
+  if (window.innerWidth > 768) {
+    VANTA.NET({
+      el: "#vanta-bg",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x8f00ff,
+      backgroundColor: 0x000000
+    });
+  } else {
+    // Mobile: define fundo estático manualmente
+    const vantaBg = document.getElementById("vanta-bg");
+    if (vantaBg) {
+      vantaBg.style.backgroundImage = "url('6bfdfdf7-06c9-4c41-8a0d-ac7dc17cff72.png')";
+      vantaBg.style.backgroundSize = "cover";
+      vantaBg.style.backgroundPosition = "center";
+      vantaBg.style.backgroundRepeat = "no-repeat";
+      vantaBg.style.backgroundAttachment = "fixed";
+      vantaBg.style.position = "relative";
+    }
+
+    // Esconde canvas se tiver sido renderizado
+    const canvas = document.querySelector("canvas");
+    if (canvas) {
+      canvas.style.display = "none";
+    }
+  }
+
+  // Animação de digitação
+  const nameText = "Yago Kabraw";
+  const descText = "Web developer & software engineering student";
+  const bemvTeXT = "Bem-vindo!"
+
+  const nameElement = document.getElementById("name-text");
+  const descElement = document.getElementById("desc-text");
+  const cursor1 = document.getElementById("cursor1");
+  const cursor2 = document.getElementById("cursor2");
+
+  let index = 0;
+  let phase = "typing-name";
+
+  function typeLoop() {
+    if (phase === "typing-name") {
+      nameElement.textContent = nameText.substring(0, index);
+      index++;
+      if (index > nameText.length) {
+        index = 0;
+        phase = "typing-desc";
+      }
+    } else if (phase === "typing-desc") {
+      descElement.textContent = descText.substring(0, index);
+      index++;
+      if (index > descText.length) {
+        index = descText.length;
+        phase = "deleting-desc";
+        setTimeout(typeLoop, 1500);
+        return;
+      }
+    } else if (phase === "deleting-desc") {
+      descElement.textContent = descText.substring(0, index);
+      index--;
+      if (index < 0) {
+        index = nameText.length;
+        phase = "deleting-name";
+      }
+    } else if (phase === "deleting-name") {
+      nameElement.textContent = nameText.substring(0, index);
+      index--;
+      if (index < 0) {
+        index = 0;
+        phase = "typing-name";
+      }
+    }
+
+    cursor1.style.display = phase.includes("name") ? "inline-block" : "none";
+    cursor2.style.display = phase.includes("desc") ? "inline-block" : "none";
+
+    setTimeout(typeLoop, 50);
+  }
+
+  typeLoop();
+
+  // MENU HAMBURGUER
+  document.addEventListener("DOMContentLoaded", () => {
+    const btnMenu = document.getElementById("btn-menu");
+    const navMenu = document.getElementById("nav-menu");
+
+    if (btnMenu && navMenu) {
+      btnMenu.addEventListener("click", () => {
+        navMenu.classList.toggle("ativo");
+      });
+    }
+  });
+
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const botao = document.getElementById("menu-hamburguer");
+    const menu = document.querySelector(".menu");
+
+    if (botao && menu) {
+      botao.addEventListener("click", function () {
+        menu.classList.toggle("active");
+      });
+    }
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const botao = document.getElementById("menu-toggle");
+    const menu = document.getElementById("menu");
+
+    if (botao && menu) {
+      botao.addEventListener("click", function () {
+        menu.classList.toggle("open");
+      });
+    }
+  });
+</script>
+<script>
+  function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    const toggle = document.querySelector('.menu-toggle');
+    menu.classList.toggle('active');
+    toggle.classList.toggle('active');
+  }
+
+  // Fecha o menu ao clicar em um item
+  document.querySelectorAll('.menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.querySelector('.menu').classList.remove('active');
+      document.querySelector('.menu-toggle').classList.remove('active');
+    });
+  });
+
+  // Fecha o menu ao clicar fora dele
+  document.addEventListener('click', function (event) {
+    const menu = document.querySelector('.menu');
+    const toggle = document.querySelector('.menu-toggle');
+
+    const isClickInsideMenu = menu.contains(event.target);
+    const isClickInsideToggle = toggle.contains(event.target);
+
+    if (!isClickInsideMenu && !isClickInsideToggle) {
+      menu.classList.remove('active');
+      toggle.classList.remove('active');
+    }
+  });
+</script>
+
+
+
+  
+
+</body>
+</html>

@@ -7,7 +7,7 @@
 
 
 body {
-  background-image: url('fundo.png'); /* Substitua pelo nome real */
+  background-color: url('fundo.png'); /* Substitua pelo nome real */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,6 +41,7 @@ nav a:hover {
 }
 
 header {
+  background-image: url('fundo.png'); /* Substitua pelo nome real */
   height: 100vh;
   display: flex;
   align-items: center;

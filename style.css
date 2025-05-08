@@ -543,7 +543,7 @@ z-index: 2;
 @media (max-width: 768px) {
   /* Corrigido: usar # para ID */
   #vanta-bg {
-    background-image: url('faa2e777-4ffe-49ba-b1a9-9996256c2f7b.png');
+    background-image: url('fundo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

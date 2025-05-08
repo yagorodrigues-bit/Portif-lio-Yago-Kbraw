@@ -15,6 +15,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+  <div id="preloader">
+    <div class="cube-loader">
+      <div class="cube"></div>
+    </div>
+  </div>
+  
+  
 
   <!-- Navegação superior -->
   <nav>
@@ -74,7 +81,7 @@
             <span>Empresa trabalhada</span>
           </div>
         </div>
-       <a href="curriculo-lattes.pdf" download class="btn-cv">Currículo</a>
+        <a href="Currículo-Lattes.pdf" class="btn-cv" download>Currículo <i class="fas fa-download"></i></a>
 
 
       </div>
@@ -156,7 +163,7 @@
         </div>
         <div class="info-hover">
           <h4>EP Contabilidade</h4>
-          <a href="https://www.epcontabilidadeonline.com/" target="_blank" class="btn-sobre">Ver mais</a>
+          <a href="curriculo-lattes.pdf" download class="btn-cv">Currículo</a>
         </div>
       </div>
       
@@ -421,8 +428,27 @@
 </script>
 
 
+<script>
+  window.addEventListener('load', () => {
+    const preloader = document.getElementById('preloader');
+    preloader.style.opacity = '0';
+    preloader.style.pointerEvents = 'none';
+    setTimeout(() => preloader.style.display = 'none', 500);
+  });
+</script>
 
-  
+//
+// <script>
+  //window.addEventListener('load', () => {
+    // Simula atraso no carregamento (ex: 2 segundos)
+  //  setTimeout(() => {
+    //  const preloader = document.getElementById('preloader');
+ //     preloader.style.opacity = '0';
+  //    preloader.style.pointerEvents = 'none';
+ //     setTimeout(() => preloader.style.display = 'none', 500);
+  //  }, 10000); // <-- ajuste esse tempo conforme quiser testar
+  //});
+// </script>//
 
 </body>
 </html>
